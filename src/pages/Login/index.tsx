@@ -24,7 +24,7 @@ export function Login() {
   const { register, handleSubmit, formState: { errors, isValid } } = useForm<IFormLogin>({
     defaultValues: defaultValues,
     resolver: yupResolver(schema),
-    mode: 'onBlur',
+    mode: 'onTouched',
     reValidateMode: 'onChange'
   });
 
