@@ -24,7 +24,7 @@ export const ButtonContainer = styled.button<Tbutton>`
 
     &:hover {
       opacity: 1;
-      cursor: auto;
+      cursor: not-allowed;
     }
   `}
 `
